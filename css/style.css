@@ -269,6 +269,43 @@ nav .burger a {
     text-decoration: none;
 }
 
+.products {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 40px 40px;
+}
+
+.products .row {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.product-item img {
+    width: 100%;
+    top:0; left:0;
+    object-fit: cover;
+    display: block;
+    transition: 1.2s;
+}
+
+.product-item .stars i {
+    color: #68745c
+}
+
+.product-item .stars i.light {
+    color: #646f5841
+}
+
 
 @media( max-width: 980px ) {
 
