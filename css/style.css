@@ -362,7 +362,7 @@ nav .burger a {
 .video  {
     /* margin-left: 40px;
     margin-right: 40px; */
-    padding: 100px 60px;
+    padding: 100px 100px;
 }
 
 .video-container {
@@ -397,6 +397,10 @@ nav .burger a {
     margin-bottom: 20px;
 }
 
+.video-container .content-text p {
+    font-weight: 200;
+}
+
 .bg1 {
     background-image: url("../img/h-8-img-6.jpg");
     background-position: center no-repeat;
@@ -428,7 +432,7 @@ nav .burger a {
     padding: 100px 0;
 }
 
-.blog-articles  {
+.blog-articles {
     margin-left: 60px;
     margin-right: 60px;
     padding: 40px 90px;
@@ -456,10 +460,12 @@ nav .burger a {
     left: 0;
     object-fit: cover;
     display: block;
-    transition: 1.2s;
+    transition: 1s;
 }
 
 .article-item:hover .content-img img {
+    /* filter: blur(5px); */
+    filter: grayscale(1);
     transform: scale(1.1);
 }
 
