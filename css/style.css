@@ -304,7 +304,7 @@ nav .burger a {
 }
 
 .product-type-item .content-text h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -556,6 +556,7 @@ nav .burger a {
     margin: 0 20px;
     padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.136) 0px 20px 50px -20px;
+    cursor: pointer;
 }
 
 .article-item .content-img {
