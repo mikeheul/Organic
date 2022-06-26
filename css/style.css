@@ -628,6 +628,7 @@ nav .burger a {
 .date {
     position: absolute;
     font-size: 12px;
+    font-weight: 500;
     line-height: 12px;
     text-align: center;
     padding: 20px;
@@ -637,7 +638,7 @@ nav .burger a {
     width: 24px;
     display: block;
     transform: translate(0, 0);
-    background: rgba(255, 255, 255, 0.647);
+    background: rgba(255, 255, 255, 0.789);
     writing-mode: vertical-rl;
     text-orientation: mixed;
     display: flex;
